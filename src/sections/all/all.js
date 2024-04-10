@@ -105,7 +105,7 @@ function all() {
       <h3>{e.title}</h3>
       <h4>ფასი: {e.price} ლარი</h4>
       <div className={allStyle.btns}>
-      <Link to="https://www.instagram.com/" target='_blank'><button>სრულად</button></Link>
+        <Link to="https://www.instagram.com/"><button>სრულად</button></Link>
         <button className={allStyle.sales}>ფასდაკლება</button>
       </div>
     </div>
