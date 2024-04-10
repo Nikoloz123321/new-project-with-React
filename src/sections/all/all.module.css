@@ -1,0 +1,155 @@
+.all_container {
+    padding: 0px 80px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
+    /* background-color: red; */
+
+}
+
+@font-face {
+    font-family: ninoMtavruli;
+    src: url(../../fonts/bpg_nino_mtavruli_normal.ttf);
+}
+
+.all_cards {
+    background-color: #eeeeee;
+    width: 250px;
+    height: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transition: 0.3s;
+}
+
+.all_cards:hover {
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0px 9px 5px -4px rgba(97, 97, 97, 0.56);
+    -moz-box-shadow: 0px 9px 5px -4px rgba(97, 97, 97, 0.56);
+    box-shadow: 0px 9px 5px -4px rgba(97, 97, 97, 0.56);
+}
+
+.all_cards h1,
+h3,
+h4 {
+    padding: 0px 10px;
+    color: #5e5e5e;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales {
+    background-color: rgba(255, 255, 0, 0.349);
+    border: none !important;
+    font-size: 12px;
+    color: black !important;
+    cursor: auto !important;
+}
+
+.sales:hover {
+    background-color: rgba(255, 255, 0, 0.349) !important;
+}
+
+
+.hearts {
+    border: none !important;
+}
+
+
+.all_cards h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.671) !important;
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+.all_cards h3 {
+    font-family: ninoMtavruli;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 5px;
+}
+
+.all_cards h4 {
+    font-family: ninoMtavruli;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.all_cards button {
+    border: 1px solid var(--color1);
+    border-radius: 5px;
+    margin: 0px 10px;
+    margin-top: 10px;
+    padding: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.all_cards button:hover {
+    color: rgba(255, 255, 255, 0.719);
+    background-color: var(--color1);
+}
+
+.cards img {
+    background-color: #e2e2e2;
+    width: 250px;
+    height: 170px;
+    background-size: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    cursor: pointer;
+    filter: blur(0.9px);
+}
+
+.cards img:hover {
+    filter: blur(0);
+}
+
+.icon_container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ninoMtavruli;
+    gap: 100px;
+}
+
+.icon_container img {
+    width: 120px;
+    padding: 18px;
+    background-color: var(--color1);
+    border-radius: 50%;
+}
+
+.icon1_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon1_container h1 {
+    color: rgba(0, 0, 0, 0.288);
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.icon1_container p {
+    color: rgb(211, 211, 211);
+    font-size: 18px;
+    margin-left: 1px;
+
+}

@@ -1,0 +1,65 @@
+footer {
+    background-color: black;
+    margin-top: 80px;
+    height: 300px;
+    padding: 50px 80px;
+}
+
+.footer_container {
+    display: flex;
+    gap: 35px;
+}
+
+footer h1 {
+    color: rgb(150, 0, 0);
+    cursor: pointer;
+    font-family: ninoMtavruli;
+    font-size: 15px;
+    line-height: 30px;
+    transition: 0.2s;
+}
+
+footer h1:hover {
+    color: rgb(194, 1, 1);
+}
+
+.reserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
+    font-family: ninoMtavruli;
+    color: rgba(255, 255, 255, 0.377);
+    background-color: rgb(34, 34, 34);
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+input {
+    width: 200px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(206, 206, 206);
+}
+
+.inputs button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: rgb(150, 0, 0);
+    color: rgb(206, 206, 206);
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.548);
+    font-size: 12px;
+}

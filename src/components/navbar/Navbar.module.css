@@ -1,0 +1,88 @@
+.navbar_container {
+    /* background-color: red; */
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: ninoMtavruli;
+    src: url(../../fonts/bpg_nino_mtavruli_normal.ttf);
+}
+
+.navbar_container a {
+    text-decoration: none;
+}
+
+.navbars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+    padding: 15px 10px;
+    border-radius: 25px;
+
+}
+
+.navbar_container h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.geo {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.geo:hover {
+    color: var(--color1);
+}
+
+.eng {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.eng:hover {
+    color: var(--color1);
+}
+
+.dark_white {
+    cursor: pointer;
+}
+
+
+.navbar_container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+
+ul li {
+    font-family: ninoMtavruli;
+    font-weight: bold;
+    color: #2C2C2C;
+    letter-spacing: 2px;
+    background-color: #F9F9F9;
+    padding: 15px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+ul li:hover {
+    background-color: black;
+    color: rgb(240, 240, 240);
+}
+
+.all_texts {
+    background-color: black;
+    color: rgb(240, 240, 240);
+}
+
+

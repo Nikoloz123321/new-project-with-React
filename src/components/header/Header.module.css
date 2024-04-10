@@ -1,0 +1,96 @@
+.header_container {
+    border-bottom: 1px solid  #F6F6F6;
+    display: flex;
+    align-items: center;
+    padding: 50px 80px;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: ninoMtavruli;
+    src: url(../../fonts/bpg_nino_mtavruli_normal.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.header {
+    position: relative;
+    cursor: pointer;
+}
+
+.header h1, p {
+    margin-left: 80px;
+}
+
+.header h1 {
+    font-size: 38px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    line-height: 44px;
+    color: #282828;
+
+}
+
+marquee {
+    width: 70%;
+    font-family: ninoMtavruli;
+    /* background-color: red; */
+}
+
+.header p {
+    transform: translateX(1px);
+    font-family: ninoMtavruli;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+
+.socials {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 15px;
+    border-radius: 35px;
+    background-color: #F6F6F6;
+}
+
+.socials a {
+    color: white;
+}
+
+.fb, .insta, .x {
+    border-radius: 50%;
+    background-color: #282828;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fb:hover {
+    transform: translateY(-3px);
+}
+
+
+.insta:hover {
+    transform: translateY(-3px);
+}
+
+
+.x:hover {
+    transform: translateY(-3px);
+}
+
+.imgs {
+    position: absolute;
+    width: 70px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+span {
+    color: var(--color1);
+    cursor: pointer;
+}
