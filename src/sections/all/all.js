@@ -6,6 +6,8 @@ import { faHeart } from '@fortawesome/free-regular-svg-icons'
 import Icon1 from '../../imgs/icon1.png'
 import Icon2 from '../../imgs/icon2.png'
 import Icon3 from '../../imgs/icon3.png'
+import { Link } from 'react-router-dom'
+
 function all() {
   const allProducts = [
     {
@@ -103,7 +105,7 @@ function all() {
       <h3>{e.title}</h3>
       <h4>ფასი: {e.price} ლარი</h4>
       <div className={allStyle.btns}>
-        <button>სრულად</button>
+      <Link to="https://www.instagram.com/" target='_blank'><button>სრულად</button></Link>
         <button className={allStyle.sales}>ფასდაკლება</button>
       </div>
     </div>
